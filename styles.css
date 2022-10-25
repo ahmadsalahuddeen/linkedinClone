@@ -1,0 +1,152 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2ef;
+    
+    z-index: 999;
+}
+
+
+.header-logo{
+    height: 40px;
+    object-fit: contain;
+    
+}
+
+
+.header-section{
+    color: white;
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-bottom: 0.9px solid whitesmoke;
+    display: flex;
+    z-index: 999;
+    
+    
+}
+.left-header{
+    display: flex;
+}
+.right-header{
+  display: flex;
+}
+.search-input{
+    padding: 5px;
+    margin-left: 10px;
+    
+    background-color: grey;
+    opacity: 0.3;
+    border-radius: 4px;
+    
+    
+}
+
+.input{
+    border: none;
+    outline: none;
+    background: none;
+
+    
+}
+
+.search-icon{
+    margin-top: 3px;
+    color: black;
+}
+
+.header-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    color: grey;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.header-options:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+/* main section */
+
+
+
+.main-section{
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+
+}
+
+/* SIDE BAR SECTION */
+
+.sidebar{
+    
+    margin-left: 50px;
+    flex: 0.2;
+    
+
+}
+.sidebar-top{
+    
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 10PX;
+    border: 0.1px solid lightgrey;
+   
+   
+    text-align: center;
+}
+.sidebar-art{
+    
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+    
+    margin-bottom: -30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.profile-image{
+    object-fit: contain;
+    border-radius: 50%;
+    height: 70px;
+}
+.heading-name{
+    
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 9px;
+}
+.desc-sidebar{
+    font-size: small;
+    opacity: 60%;
+    font-weight: 500;
+    
+}
+.connections{
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 10PX;
+    border: 0.1px solid lightgrey;
+   margin-top: 10px;
+   
+    padding-left: 19px;
+}
