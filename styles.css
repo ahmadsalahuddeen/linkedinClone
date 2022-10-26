@@ -252,10 +252,15 @@ body{
     
     display: flex;
 }
+.post-top{
+    padding-top: 10px;
+    padding-left: 7px;
+}
 .option-icon{
     margin-right: 10px;
 }
 .post-main{
+    
     background-color: white;
     border-radius: 10px;
     padding: 10px;
