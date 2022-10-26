@@ -44,7 +44,6 @@ body{
 .search-input{
     padding: 5px;
     margin-left: 10px;
-    
     background-color: grey;
     opacity: 0.3;
     border-radius: 4px;
@@ -53,9 +52,11 @@ body{
 }
 
 .input{
+   
     border: none;
     outline: none;
     background: none;
+    
 
     
 }
@@ -98,7 +99,7 @@ body{
 /* SIDE BAR SECTION */
 
 .sidebar{
-    
+    position: sticky;
     margin-left: 50px;
     flex: 0.2;
     
@@ -142,11 +143,181 @@ body{
     
 }
 .connections{
+    padding-right: 10px;
     border-radius: 10px;
     background-color: white;
     padding-bottom: 10PX;
     border: 0.1px solid lightgrey;
    margin-top: 10px;
+   padding-top: 10px;
+    padding-left: 12px;
+}
+.stats{
+    color: blue;
+    font-size: small;
+    font-weight: 500;
+}
+.stats-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+.recent{
+    cursor: pointer;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 10PX;
+    border: 0.1px solid lightgrey;
+   margin-top: 10px;
+   padding-top: 10px;
+    padding-left: 12px;
+}
+.recents{
    
-    padding-left: 19px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 10PX;
+    border: 0.1px solid lightgrey;
+   margin-top: 10px;
+   padding-top: 10px;
+    padding-left: 12px;
+}
+.recent:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+
+/* FEED SECTION starts from here */
+
+.main-feed-section{
+    margin: 0 20px;
+    flex: 0.6;
+    
+
+}
+.input-section{
+    display: flex;
+    
+}
+.profile-image-feed{
+    object-fit: contain;
+    border-radius: 50%;
+    height: 50px;
+}
+.feed-post-section{
+    
+    padding-right: 5px;
+    border-radius: 10px;
+    background-color: white;
+    padding-bottom: 10PX;
+    border: 0.1px solid lightgrey;
+   margin-top: 5px;
+   padding-top: 10px;
+    padding-left: 12px;
+}
+.recent-feed{
+    margin-left: 10px;
+    cursor: pointer;
+    
+    border-radius: 30px;
+    background-color: white;
+    padding-bottom:0PX;
+    border: 0.2px solid black;
+   margin-top: 5px;
+   padding-top: 10px;
+    padding-left: 20px;
+    flex: 1;
+    margin-right: 15px;
+    
+    
+}
+.recent-feed:hover{
+    background-color: whitesmoke;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+}
+.post-options{
+    margin-top: 20px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+.post-logo{
+    
+    display: flex;
+}
+.option-icon{
+    margin-right: 10px;
+}
+.post-main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0.1px solid lightgrey;
+}
+.post-top{
+    display: flex;
+}
+.feed-interaction-icons{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.like-label{
+    font-weight: 400;
+}
+.post-header-name{
+    margin-left: 15px;
+}
+.post-messages{
+    margin: 20px 10px;
+}
+.icon-box{
+    padding: 10px;
+    display: flex;
+
+}
+.icon-box:hover{
+    padding: 11px;
+    background-color: whitesmoke;
+}
+.right-sidebar{
+    flex: 0.2;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.widgets-header{
+    
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.1px solid lightgrey;
+}
+
+.row{
+    align-items: center;
+    display: flex;
+}
+.dot{
+    margin-right: 5px;
+}
+.article-desc{
+    margin-left: 10px;
+}
+.article:hover{
+    cursor: pointer;
+    margin: 1px;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: whitesmoke;
 }
